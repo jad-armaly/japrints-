@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAprints – Printing that Lasts</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>JAprints</h1>
+    <p>Customized printing on mugs, rocks, aluminum frames, tiles & T-shirts</p>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>At JAprints, we bring your designs to life on unique surfaces. 
+    Whether it’s gifts, promotions, or personal items, 
+    we make printing last forever.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Our Work</h2>
+    <div class="grid">
+      <img src="https://via.placeholder.com/250x200?text=Mug" alt="Printed Mug">
+      <img src="https://via.placeholder.com/250x200?text=T-shirt" alt="Printed T-shirt">
+      <img src="https://via.placeholder.com/250x200?text=Tile" alt="Printed Tile">
+      <img src="https://via.placeholder.com/250x200?text=Frame" alt="Aluminum Frame">
+    </div>
+  </section>
+
+  <!-- Referral Signup Section -->
+  <section class="signup">
+    <h2>Join & Earn Discounts</h2>
+    <p>Sign up with your email to get your unique referral link. 
+       Invite friends and earn <strong>10% OFF</strong> for every referral!</p>
+    <form id="signupForm">
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <div id="referralBox" style="display:none; margin-top:15px;">
+      <p>Your referral link:</p>
+      <p id="referralLink" style="color:blue; font-weight:bold;"></p>
+      <p>You have referred <span id="referralCount">0</span> people 🎉</p>
+    </div>
+  </section>
+
+  <!-- Footer with WhatsApp -->
+  <footer class="footer">
+    <p>Contact us directly on WhatsApp:</p>
+    <a href="https://wa.me/96171731130" target="_blank" class="whatsapp-btn">
+      📲 Chat with us on WhatsApp
+    </a>
+    <p>&copy; 2025 JAprints. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>

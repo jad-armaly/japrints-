@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  background: #f8f9fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+header.hero {
+  background: linear-gradient(135deg, #145f5f, #1f7a7a);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about, .signup {
+  text-align: center;
+}
+
+.gallery .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #1f7a7a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background: #145f5f;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 12px 20px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.whatsapp-btn:hover {
+  background: #1ebe5b;
+}
